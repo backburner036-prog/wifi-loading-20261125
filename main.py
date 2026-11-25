@@ -40,9 +40,16 @@ def check_len(text, lo=1, hi=140):
     return size
 
 
+def check_single_line(text):
+    """One-liner gate: the joke must be exactly one line, no newline."""
+    assert "\n" not in text and "\r" not in text, "entry must be a single line"
+    return text
+
+
 def check_gate(text):
     """Mirror the bounty gate: UTF-8, 1-140 chars, not whitespace only."""
     text.encode("utf-8")
+    check_single_line(text)
     return check_len(text)
 
 
