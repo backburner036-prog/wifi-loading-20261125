@@ -12,6 +12,18 @@ dad would say out loud, a twist, and the payoff in the last beat:
 
 Delete the last clause and the joke loses its meaning: the payoff is
 the punchline, not decoration. 130 characters, under the 140 cap.
+
+Why each word was chosen (the line was built word by word, not found):
+  - "guests" instead of "friends": strangers make the trick funnier,
+    because the dad is pranking people who do not know him yet.
+  - "stare at their phones": the visible symptom — the reader can see
+    the scene in one glance, no setup sentence needed.
+  - "wait politely": the courtesy beat — the victims are too polite to
+    complain, which is exactly what lets the trick keep working.
+  - "leave without ever asking for the password": the payoff — the
+    trick works so well the password is never even requested.
+  - The em dash is the turn marker: everything before it is the setup,
+    everything after it is the trick paying off in three beats.
 """
 
 from pathlib import Path
